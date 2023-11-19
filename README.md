@@ -8,7 +8,9 @@ Consistent output format of memory-related values (unlike backend 'py-cpuinfo' p
 
 # Installation
 
-`pip install cengal_cpu_info`
+```bash
+pip install cengal_cpu_info
+```
 
 # Documentation
 
@@ -102,14 +104,20 @@ ci.vendor_id_raw='GenuineIntel'
 
 # Based on Cengal
 
-Represents part of Cengal library (https://pypi.org/project/cengal/; https://github.com/FI-Mihej/Cengal).
+Represents part of Cengal library:
+* https://pypi.org/project/cengal/
+* https://github.com/FI-Mihej/Cengal
 
 An equivalent import:
 ```python
 from cengal.hardware.info.cpu import cpu_info, CpuInfo
 ```
 
-Cengal library can be installed by `pip install cengal`
+Cengal library can be installed by:
+
+```bash
+pip install cengal
+```
 
 
 # Projects using Cengal
