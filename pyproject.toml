@@ -75,7 +75,7 @@ classifiers = [
     'Typing :: Typed',
 ]
 dependencies = [
-    "cengal",
+    "cengal_light[hardware__info__cpu__versions__v_1]",
 ]
 
 [project.urls]
